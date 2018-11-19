@@ -5,7 +5,14 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class LibraryTest {
+<<<<<<< HEAD
     @Test public void testSomeLibraryMethod() {		
 		System.out.print("Hola");
+=======
+    @Test public void testSomeLibraryMethod() {
+	    
+        Library classUnderTest = new Library();
+        assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());	
+>>>>>>> b3cc3a7817e076a74a7143ba9279b50b197b7596
     }
 }
