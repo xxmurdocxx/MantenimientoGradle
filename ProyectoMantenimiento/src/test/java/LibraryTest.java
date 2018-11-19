@@ -10,6 +10,5 @@ public class LibraryTest {
 	    
         Library classUnderTest = new Library();
         assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());	
-		System.out.print("Hola");
     }
 }
